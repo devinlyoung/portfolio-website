@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hello! I'm [Your Name], a web developer and [Your Profession].</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>[Your detailed description about skills, experiences, and background]</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li><a href="https://github.com/yourusername/project1" target="_blank">Project 1</a></li>
+            <li><a href="https://github.com/yourusername/project2" target="_blank">Project 2</a></li>
+            <li><a href="https://github.com/yourusername/project3" target="_blank">Project 3</a></li>
+        </ul>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <h2>My Resume</h2>
+        <a href="assets/resume.pdf" download>Download My Resume</a>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" required></textarea><br>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Chatbot Section -->
+    <section id="chatbot">
+        <h2>Chat with Me</h2>
+        <div id="chatbox"></div>
+        <input type="text" id="user-input" placeholder="Ask me something...">
+        <button onclick="sendMessage()">Send</button>
+    </section>
+
+    <!-- QR Code Section -->
+    <section id="qr-code">
+        <h2>Scan QR Code</h2>
+        <img src="assets/qr-code.png" alt="QR Code" />
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
