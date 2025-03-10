@@ -4,12 +4,12 @@ body {
     margin: 0;
     padding: 0;
     background-color: Black; /* Black background for the body */
-    color: Goldenrod; /* Gold text color */
+    color: Yellow; /* Yellow text color */
 }
 
 header {
     background-color: Black; /* Black header */
-    color: Goldenrod; /* Gold text in header */
+    color: White; /* White text in header for contrast */
     padding: 1rem;
     text-align: center;
 }
@@ -25,60 +25,60 @@ nav ul li {
 }
 
 nav ul li a {
-    color: Goldenrod; /* Gold links */
+    color: Yellow; /* Yellow links */
     text-decoration: none;
 }
 
 nav ul li a:hover {
-    color: DarkGoldenrod; /* Slightly darker gold on hover */
+    color: White; /* White on hover */
 }
 
 section {
     padding: 20px;
     margin: 20px 0;
-    background-color: #111; /* Slightly lighter black for sections */
-    border: 1px solid Goldenrod; /* Gold border for sections */
+    background-color: White; /* White background for sections */
+    color: Black; /* Black text for sections */
+    border: 1px solid Yellow; /* Yellow border for sections */
 }
 
 h2 {
-    color: Goldenrod; /* Gold for h2 headings */
+    color: Yellow; /* Yellow for h2 headings */
 }
 
 #contact-form input, #contact-form textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid Goldenrod; /* Gold border around input fields */
-    background-color: #222; /* Dark background for input fields */
-    color: Goldenrod; /* Gold text in input fields */
+    border: 1px solid Yellow; /* Yellow border around input fields */
+    background-color: Black; /* Black background for input fields */
+    color: White; /* White text in input fields */
 }
 
 #contact-form input:focus, #contact-form textarea:focus {
     outline: none;
-    border-color: DarkGoldenrod; /* Darker gold on focus */
+    border-color: Yellow; /* Yellow border on focus */
 }
 
 #chatbot {
     margin-top: 30px;
     padding: 10px;
-    border: 1px solid Goldenrod; /* Gold border around chatbot */
-    background-color: #111; /* Dark background for the chatbot */
-    color: Goldenrod; /* Gold text for chatbot */
+    border: 1px solid Yellow; /* Yellow border around chatbot */
+    background-color: Black; /* Black background for the chatbot */
+    color: White; /* White text for chatbot */
 }
 
 #chatbox {
     height: 200px;
-    border: 1px solid Goldenrod; /* Gold border around chatbox */
+    border: 1px solid Yellow; /* Yellow border around chatbox */
     margin-bottom: 10px;
     overflow-y: auto;
     padding: 10px;
-    background-color: #222; /* Dark background for the chatbox */
-    color: Goldenrod; /* Gold text in the chatbox */
+    background-color: Black; /* Black background for the chatbox */
+    color: White; /* White text in the chatbox */
 }
 
 #qr-code img {
     width: 200px;
     height: 200px;
-    border: 5px solid Goldenrod; /* Gold border around QR code */
+    border: 5px solid Yellow; /* Yellow border around QR code */
 }
-
