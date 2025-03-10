@@ -3,11 +3,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #000; /* Black background for the body */
+    color: #f7d700; /* Gold text color */
 }
 
 header {
-    background-color: #333;
-    color: white;
+    background-color: #000; /* Black header */
+    color: #f7d700; /* Gold text in header */
     padding: 1rem;
     text-align: center;
 }
@@ -23,40 +25,59 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #f7d700; /* Gold links */
     text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #c5a300; /* Slightly darker gold on hover */
 }
 
 section {
     padding: 20px;
     margin: 20px 0;
+    background-color: #111; /* Slightly lighter black for sections */
+    border: 1px solid #f7d700; /* Gold border for sections */
 }
 
 h2 {
-    color: #333;
+    color: #f7d700; /* Gold for h2 headings */
 }
 
 #contact-form input, #contact-form textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
+    border: 1px solid #f7d700; /* Gold border around input fields */
+    background-color: #222; /* Dark background for input fields */
+    color: #f7d700; /* Gold text in input fields */
+}
+
+#contact-form input:focus, #contact-form textarea:focus {
+    outline: none;
+    border-color: #c5a300; /* Darker gold on focus */
 }
 
 #chatbot {
     margin-top: 30px;
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #f7d700; /* Gold border around chatbot */
+    background-color: #111; /* Dark background for the chatbot */
+    color: #f7d700; /* Gold text for chatbot */
 }
 
 #chatbox {
     height: 200px;
-    border: 1px solid #ddd;
+    border: 1px solid #f7d700; /* Gold border around chatbox */
     margin-bottom: 10px;
     overflow-y: auto;
     padding: 10px;
+    background-color: #222; /* Dark background for the chatbox */
+    color: #f7d700; /* Gold text in the chatbox */
 }
 
 #qr-code img {
     width: 200px;
     height: 200px;
+    border: 5px solid #f7d700; /* Gold border around QR code */
 }
