@@ -25,7 +25,7 @@ https://github.com/devinlyoung
 
 Chatbot Implementation:
 
-  The live portfolio website features a chatbot I created in Pycharm that is designed to helps users get information about my personal portfolio website. It uses artificial intelligence (AI) to understand and respond to questions based on the content from the website. Here's how it works and the tools used to build it:
+  The live portfolio website features a chatbot I created in Pycharm that is designed to helps users get information about my personal portfolio website. It uses artificial intelligence (AI) and natural language processing (NLP) to understand and respond to questions based on the content from the website. Here's how it works and the tools used to build it:
 
   1. Fetch Data - The chatbot retrieves the latest content from Devin's website in real-time. It uses the Requests tool to grab the website's HTML (the code behind the website).
 
